@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url("C:/Users/admin/Downloads/sample6.png");
+            
+            }
+            .grid{
+                display: grid;
+                grid-template-rows:auto auto auto;
+                grid-template-columns: auto auto auto;
+                background: red;
+                grid-gap: 10px;
+                padding: 10px;
+               height: 100vw;
+
+            }
+            .grid>div{
+                padding: 10px;
+                background: gray;
+                border-radius: 60%;
+                text-align: center;
+
+            }
+            .grid>div:hover{
+                background: transparent;
+            }
+
+        </style>
+       <body>
+<div class="grid">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+</div>
+        </body>
+   
+    </head>
+</html>
